@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    color: azure;
+}
+.container{
+    border: 2px solid yellow; ;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(51, 49, 49);
+}
