@@ -3,8 +3,75 @@ body{
     color: azure;
 }
 .container{
-    border: 2px solid yellow; ;
+    /* border: 2px solid yellow; ; */
     width: 80%;
     margin: auto;
-    background-color: rgb(51, 49, 49);
+    background-color: rgb(48, 46, 46, 0.815);
+    border-radius: 20px;
+}
+.heading{
+    font-family: 'Lobster', cursive; 
+}
+
+#title{
+    font-size: 60px;
+    text-align: center;
+}
+#span1{
+    color: rgb(228, 228, 26);
+}
+#info{
+width: 90%;
+margin: auto;
+text-align: justify;
+font-size: 1.2rem;
+
+}
+#img-div{
+    /* border: 2px solid rgb(228, 228, 26); ; */
+    text-align: center;
+    
+}
+#image{
+    border-radius: 15px;
+    box-shadow: 5px 5px 50px rgb(228, 228, 26);
+}
+
+
+#top{
+    color: rgb(228, 228, 26);
+    /* border: 1px solid yellow; */
+    /* width: 80%;
+    margin: auto; */
+    margin-left: 3%;
+}
+ul{
+    width: 100%;
+    margin:auto ;
+}
+li{
+    font-size: 24px;
+    line-height: 2rem;
+}
+#footer{
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+#link{
+    text-decoration: none;
+    color: rgb(228, 228, 26);
+    border: 3px solid rgb(201, 11, 160);
+    padding: 1rem ;
+    border-radius: 10px;
+    background-color: rgb(0, 145, 212);
+}
+#link:hover{
+    background-color: rgb(233, 151, 165);
+    color: rgb(228, 228, 26);
+}
+#date{
+    font-size: larger;
+    color: rgb(182, 31, 196);
 }
